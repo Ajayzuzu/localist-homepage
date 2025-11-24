@@ -5,7 +5,7 @@ import Homepage from "../pages/HomePage";
 
 const routes = [
   {
-    path: "/en/gb",
+    path: "/",
     element: <MainLayout />,
     children: [
       {
