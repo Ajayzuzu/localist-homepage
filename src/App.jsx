@@ -10,10 +10,7 @@ import { useSelector } from "react-redux";
 import FullScreenSpinner from "./components/FullSpinner";
 
 function App({ initialUrl, hostname, createRouterFactory }) {
-  // const { selectedServiceFormData, registerStep } = useSelector(
-  //   (state) => state.findJobs
-  // );
-
+  console.log("version code : ", "1.0.0");
   const { selectedServiceFormData, registerStep } = [];
   const userToken = null;
   const registerToken = null;
