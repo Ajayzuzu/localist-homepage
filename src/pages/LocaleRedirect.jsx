@@ -34,9 +34,7 @@ export default function LocaleRedirect({ children }) {
 
       // Build new path with prefix + current path without any accidental locale prefix
       const suffix = location.pathname.replace(/^\/[a-z]{2}\/[a-z]{2}/, "");
-      const nextPath =
-        `/${detectedLang}/${detectedCountry}` +
-        (suffix.startsWith("/") ? suffix : `/${suffix}`);
+      const nextPath = `/`;
 
       if (!cancelled && location.pathname !== nextPath) {
         navigate(nextPath, { replace: true });
