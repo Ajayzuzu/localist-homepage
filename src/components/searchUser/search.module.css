@@ -160,7 +160,7 @@
   color: #ffffff;
   padding: 13px 20px;
   border-radius: 3px;
-  background: var(--primary-color);
+  background: #00afe3;
   cursor: pointer !important;
   border: none;
 }
